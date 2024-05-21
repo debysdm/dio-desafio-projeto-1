@@ -1,0 +1,80 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 6px;
+    scale: 96%;
+}
+
+header {
+    background-color: rgb(60, 60, 60);
+    letter-spacing: -3px;
+    border-radius: 10px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    height: 70px;
+    color: rgb(232, 226, 226);
+    padding-bottom: 8px;
+    width: 1200px;
+    margin-bottom: -20px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+}
+    
+input {
+    height: 60px;
+    width: 440px;
+    font-size: 34px;
+    letter-spacing: -2px;
+    border-radius: 6px;
+    border: solid 1px lightgray;
+}
+
+
+button {
+    border-radius: 5px;
+    border: 1px solid rgb(228, 228, 228);
+    padding: 10px 20px;
+    background: rebeccapurple;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(36, 30, 30);
+    color: rgb(240, 112, 223);
+}
+
+#nomeHeroi {
+    font-size: 80px;
+    font-weight: bolder;
+    letter-spacing: -6px;
+    margin: 10px 0px 10px 0px;
+}
+
+#xpHeroi {
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    margin: 20px 0px 20px 0px;
+}
+
+#resultado {
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: -2px;
+}
+
+#classAccent {
+    color: red;
+}
+
+#xpAccent {
+    color: rgb(0, 89, 255);
+}
